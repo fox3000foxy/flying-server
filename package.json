@@ -18,7 +18,8 @@
     "lint": "standard test/*.test.js src/**/*.js src/**/**/*.js src/*.js examples/*.js *.js",
     "fix": "standard --fix test/*.test.js src/**/*.js src/**/**/*.js src/*.js examples/*.js *.js",
     "test": "jest --config jest.config.js --verbose --runInBand",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
+    "start":"node app.js"
   },
   "keywords": [],
   "license": "MIT",
